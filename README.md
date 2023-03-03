@@ -6,8 +6,19 @@ Esta aplicación de escritorio permite el estudio de señales no convencionales,
 Además tambien permite simular los resultados de señales clásicas como códigos de línea RZ, NRZ, Manchester y modulaciones BPSK, OOK, FSK, QPSK, 8-PSK y 16QAM.
 
 ## Funcionamiento del programa
+Este simulador funciona a partir del siguiente diagrama de bloque simplificado:
+![DiagramaBloque](https://user-images.githubusercontent.com/126732560/222809981-06a2a575-9fad-45e0-8c1c-dd051f7783cc.png)
 
+Los bloques representan:
 
+- **Codificador de Línea // Modulador:** Se genera la señal digital. El simulador posee dos opciones:
+  - **Señales clásicas:** señales estandarizadas con características conocidas y aplicaciones prácticas
+  - **Señales no convencionales:** señales cuyos símbolos que la conforman son definidas por el usuario. Las señales no convencionales pueden ser ingresadas de dos formas: 
+    - **Símbolos:** especificando directamente la forma de sus símbolos. 
+    - **Bases:** especificando las bases de la señal para luego ingresar las coordenadas de cada símbolo en el diagrama de constelación.
+- **Canal AWGN:** La señal generada es transmitida por un canal con ruido aditivo blanco gaussiano.
+
+- **Receptor Óptimo Gram-Schmidt:** se utiliza un receptor basado en el proceso de ortogonalización Gram-Schmidt para recuperar la señal transmitida con la menor cantidad de errores posibles.
 
 ## Archivos .py
 - __main.py__ es el archivo ejecutable del programa.
