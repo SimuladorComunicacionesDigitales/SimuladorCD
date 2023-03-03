@@ -32,3 +32,12 @@ Los demás archivos son las distintas ventanas que componen el simulador:
   ## Otros archivos:
 - __Documentación_Simulador.pdf__ es el documento en PDF con la documentación completa del simulador.
 - En la carpeta __/UIs/__ se encuentran los archivos .ui utilizados por las ventanas del simulador, y los archivos .png que se utilizan en el programa.
+
+## Canal de Youtube e Instaladores del simulador
+
+[En este canal de Youtube](https://www.youtube.com/channel/UCgust5DnYAvu9sV0m10zzSA) podrás encontrar el funcionamiento del programa e instrucciones para su instalación.
+
+
+[En esta carpeta de Drive](https://drive.google.com/drive/folders/1mSQzdSBZGbjdYQhhjNOy4qL1Pa-t2rus?usp=sharing) podrás encontrar los instaladores del simulador tanto para Windows como MacOS.
+
+
