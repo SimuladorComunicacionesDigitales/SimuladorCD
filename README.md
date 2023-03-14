@@ -29,6 +29,8 @@ Los demás archivos son las distintas ventanas que componen el simulador:
   - __numCiclos.py__ es la ventana de la verificación de Número de Ciclos en Sinusoides y __documentacion.py__ es la ventana de documentación.
   - __SenalesClasicas.py__, __ScreenSimbolos2.py__, __ScreenSimbolos3.py__, __ScreenSimbolos4.py__, __ScreenBases2.py__, __ScreenBases3.py__, y __ScreenBases4.py__ son las ventanas principales que contiene los resultados de los distintos módulos del simulador.
   
+  - __Este proyecto utiliza las librerías numPy, matplotlib y PyQt5.__
+  
   ## Otros archivos:
 - __Documentación_Simulador.pdf__ es el documento en PDF con la documentación completa del simulador.
 - En la carpeta __/UIs/__ se encuentran los archivos .ui utilizados por las ventanas del simulador, y los archivos .png que se utilizan en el programa.
