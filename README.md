@@ -42,4 +42,4 @@ Los demás archivos son las distintas ventanas que componen el simulador:
 
 [En esta carpeta de Drive](https://drive.google.com/drive/folders/1mSQzdSBZGbjdYQhhjNOy4qL1Pa-t2rus?usp=sharing) podrás encontrar los instaladores del simulador tanto para Windows como MacOS.
 
-
+[Este PDF](https://drive.google.com/file/d/1pjE_RMmZeTRoyblKZwuQ4QtvxXNoTD8S/view?usp=drive_link) contiene un documento que resume el trabajo realizado.
